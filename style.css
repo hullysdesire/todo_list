@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
+
 
 body {
-  background-color: #a39bd2;
+  /* Dégradé linéaire de haut en bas, du bleu au vert */
+  background: linear-gradient(to bottom, #3a6186, #89253e);
+  height: 100vh;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   min-height: 70vh;
   padding: 1rem;
   box-sizing: border-box;
@@ -25,11 +30,19 @@ body {
   }
 }
 
+/* .premier{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+   
+} */
+
+
 .container {
   width: 100%;
   height: auto;
-  min-height: 500px;
-  max-width: 500px;
+  min-height: 600px;
+  max-width: 600px;
   min-width: 250px;
   background: #f1f5f8;
   background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
@@ -40,6 +53,7 @@ body {
   box-sizing: border-box;
 }
 .heading {
+    background-image: ;
   display: flex;
   align-items: center;
   justify-content: center;
